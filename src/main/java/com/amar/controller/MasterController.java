@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MasterController {
 
-	@GetMapping
+	@GetMapping("/welcome")
 	public String getGreetingMsg() {
 		return "Success";
 	}
